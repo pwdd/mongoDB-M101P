@@ -1,7 +1,6 @@
 require 'mongo'
 
 class Solution
-  attr_reader :collection
   Mongo::Logger.logger.level = ::Logger::INFO
 
   def self.mongo_client
